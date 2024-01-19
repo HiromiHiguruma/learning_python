@@ -162,3 +162,4 @@ def battle ():
 
 
 battle ()
+input ("Enter to exit.")

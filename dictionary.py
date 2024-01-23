@@ -6,3 +6,7 @@ conversor_de_nombres = {
     }
 
 print (conversor_de_nombres.get("Pedro", "No hay nadie con ese nombre"))
+
+height = 12
+for i in range(0,height):
+    print("/" * (height - i))

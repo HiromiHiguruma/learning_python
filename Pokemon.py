@@ -131,7 +131,7 @@ def battle ():
 
                 cpus_attack_choice = random.choice(cpus_attack_pool)
                 print ("\nWild " + cpus_pokemon.name + "used " + cpus_attack_choice + ".")
-                your_current_HP = your_current_HP - valor_de_ataques.get(cpus_attack_choice)
+                your_current_HP = your_current_HP - valor_de_ataques.get(cpus_attack_choice) 
 
 
             elif your_attack_choice == 4:

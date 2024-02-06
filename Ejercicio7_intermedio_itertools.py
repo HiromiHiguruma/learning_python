@@ -1,4 +1,4 @@
-#itertools son herramientas para manejar listas, tuplas,etc.
+#itertools son herramientas para manejar contenedores (listas, tuplas,etc.)
 
 #product
 from itertools import product
@@ -91,3 +91,29 @@ def mayor_a_5 (x):
 grupo_por = groupby (Lista_10, key= mayor_a_5)
 for key, value in grupo_por:
     print (key, list(value))
+#-------------------------------------------------------------------
+#iterdores infinitos: count (contar), cycle (ciclo), repeat (repetir)
+from itertools import count
+
+#count empieza a contar desde un valor dado de forma infinita
+#se puede utilizar un if y break para determinar donde se termina de ejecutar el código
+for numero in count (10):
+    print (numero)
+    if numero == 1000:
+        break
+#cycle repite los elementos de un contenedor hasta que ponga una condición para detenerlo
+from itertools import cycle
+    
+Lista_11 = ["Pim", "Pum", "Pam"]
+
+for palabra in cycle(Lista_11):
+    print (palabra)
+    if palabra == "Pam":
+        break
+
+#repeat repite elementos de contenedores hasta una determinada cantidad de veces
+from itertools import repeat
+
+for palabra in repeat(Lista_11 [0:], 5):
+    print (palabra)
+

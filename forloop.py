@@ -26,3 +26,4 @@ def ejercicio5 ():
             print (str(number) + " es número impar")
 
 
+ejercicio2 ()

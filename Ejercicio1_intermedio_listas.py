@@ -35,7 +35,7 @@ print (mi_lista2[::2])
 
 
 
-#Si no se usa el .copy () los las 2 listas mi_lista2 y copia_de_mi_lista2 van a tener exáctamente el mismo valor, ergo acciones tomadas sobre
+#Si no se usa el .copy () las 2 listas, mi_lista2 y copia_de_mi_lista2, van a tener exáctamente el mismo valor, ergo acciones tomadas sobre
 #copia de copia_de_mi_lista2 van a afectar directamente a mi_lista2 
 #También se puede usar mi_lista copia_de_mi_lista2 = mi_lista2 [:] para obtener el mismo resultado que con .copy ()
 

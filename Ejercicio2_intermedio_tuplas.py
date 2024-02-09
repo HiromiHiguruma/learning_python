@@ -15,3 +15,5 @@ print (mi_tupla.index("Fushiguro"))
 pelo_negro, sukuna, booliano, numero = mi_tupla
 
 print (pelo_negro)
+
+print (sukuna)

@@ -5,7 +5,7 @@ from collections import Counter
 
 mi_string = "aaaaabbbc"
 mi_counter = Counter(mi_string)
-print (mi_counter)
+print (mi_counter) 
 
 print (mi_counter.keys())
 
